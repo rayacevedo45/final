@@ -10,12 +10,11 @@ public class Abbreviate {
      */
     public static String abbreviate(String string) {
         // TODO: Write this method.
-        return null;
-    }
+        return string.replaceAll("[AEIOUaeiou]", "");
+        }
 
     public static void main(String[] args) {
         System.out.println(abbreviate("The quick brown fox jumped over the lazy dogs."));
         System.out.println(abbreviate("It was the best of times, it was the worst of times."));
     }
-
 }

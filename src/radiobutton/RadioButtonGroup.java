@@ -1,5 +1,7 @@
 package radiobutton;
 
+import java.util.ArrayList;
+
 /**
  * Represents a group of "radio buttons": toggle buttons for which exactly one is selected
  * at a given time. If a different button is selected, the previously-selected button is
@@ -22,6 +24,8 @@ public class RadioButtonGroup {
      */
     public RadioButtonGroup(int numButtons, int initial) {
         // TODO: Implement this method.
+        int[]buttons =  new int[numButtons];
+
     }
 
     /**
